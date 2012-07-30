@@ -1,4 +1,7 @@
-<html><head>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
 <meta content="yes" name="apple-mobile-web-app-capable" />
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <meta content="minimum-scale=1.0, width=device-width, maximum-scale=0.6667, user-scalable=no" name="viewport" />
@@ -7,18 +10,34 @@
 <title>GRWH</title>
 <meta content="keyword1,keyword2,keyword3" name="keywords" />
 <meta content="Description of your page" name="description" />
-</head></html>
+</head>
 
+<div id="topbar"><div id="title">Google</div>
+        <div id="leftnav">
 
-<script language="javascript">
-window.resizeTo(300,400);
-</script>
-<?php
-require('master.php');
-$ssh->exec('cd /servers/siriserverpr1/ && python SiriServer.py forcestart');
-echo "Server Passthrough = Success, Pass job over to success page";
-?>
-<html>
-<meta HTTP-EQUIV="REFRESH" content="0.5; url=success.html">
+                <a href="index.html">Back</a></div>
+</div>
+<br>
+<br>
+<br>
+        <ul class="pageitem">
+                 <li class="menu">
+ <a href="googlepaid.html">
+   <img class="icon" height="32px" width="32px" src="thumbs/2.png">
+      <span class="name">Start Server</span><span class="arrow"></span></a>
+                <li class="menu">
+ <a href="googlefree.html">
+   <img class="icon" height="32px" width="32px" src="thumbs/1.png">
+      <span class="name">Stop Server</span><span class="arrow"></span>
+   </a>
+                   <li class="menu">
+ <a href="googlefree.html">
+   <img class="icon" height="32px" width="32px" src="thumbs/1.png">
+      <span class="name">Restart Server</span><span class="arrow"></span>
+   </a>
+   </ul>
+<br><center><p class="info"><div style="font-size: 0.7em; margin-top: -8px; margin-bottom: 8px; color: grey;">Copyright 2012 iEverythingApple.com</a></div></center>
+</panel>
+</body>
+
 </html>
-
