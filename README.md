@@ -1,7 +1,7 @@
 iSiriPanel
 ==========
 
--- Setup a control panel on your iDevices for your siriServers --
+-- Setup a control panel on your iDevices for your siriServers -- Made By <a href="www.twitter.com/rabih96">@Rabih96</a>
 
 -Things you will need:<br> 
 &nbsp;&nbsp;1~Ubuntu 10.04 and above<br>
