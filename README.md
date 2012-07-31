@@ -12,5 +12,7 @@ iSiriPanel
 <ol>
   <li>Download the files above as zip</li>
 	<li>Extract the zip file</li>
-	<li>copy</li>
+	<li>Now you need to put some passords to ssh into your Server root</li>
+	<li>In `master.php` replace `YOUR_PASSWORD` with your ssh pass for your server</li>
+	<li>Then in `start.php`, `stop.php` and `restart.php` replace `YOUR_PASSWORD` by the same password you used in `master.php`</li>
 </ol>
