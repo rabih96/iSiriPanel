@@ -15,5 +15,5 @@ Setup a control panel on your iDevices for your siriServers --By <a href="www.tw
 1. Download the files above as zip
 2. Extract the zip file
 3. Now you need to put some passords to ssh into your Server root
-4. In `master.php``master.php` replace `YOUR_PASSWORD` with your ssh pass for your server
+4. In `master.php` replace `YOUR_PASSWORD` with your ssh pass for your server and the `YOUR_IP_ADDRESS` with your ip address
 5. Then in `start.php`, `stop.php` and `restart.php` replace `YOUR_PASSWORD` by the same password you used in `master.php`</li>
