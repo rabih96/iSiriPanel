@@ -10,7 +10,7 @@ Setup a control panel on your iDevices for your siriServers --By <a href="www.tw
 * Few knowledge in Php/Html and deb/cydia if you want to make your app a deb file to intall throw iFile
 * Internet connection :P
 
-**Step 1**:
+**Instructions**:
 
 1. Download the files above as zip
 2. Extract the zip file
